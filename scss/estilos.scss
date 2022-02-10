@@ -9,7 +9,6 @@ header{
         color: whitesmoke;
     }
     
-
 #fotoperfil{
 height: $altofotoperfil;
 margin-top: 22px;
@@ -35,6 +34,31 @@ margin-top: 22px;
         height: 113px;
     }
     
+    nav{
+    
+        background-color: #012840;
+        height: 60px;
+        text-align: center;
+    }
+    nav ul{
+        list-style: none;
+        padding: 10px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    
+    nav ul li a{
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding-top: 10px;
+    }
+
+
     footer h4{
      display: inline;
     }
@@ -62,9 +86,54 @@ margin-top: 22px;
         text-align: center;
 }
 
+@mixin colorTituloSecundario($color, $bgColor, $tamanioLetra) {
 
-    #radial{
+    color:$color;
+    background-color: $bgColor;
+    font-size: $tamanioLetra;
+    text-align: center;
+    
+}
+
+h2{
+    @include colorTituloSecundario( blue, yellow, 60px );
+}
+
+h3{
+    @include colorTituloSecundario( red, green, 80px );
+}
+
+h4{
+    @include colorTituloSecundario(black, white, 100px )
+}
+
+    .radial{
         background-image: radial-gradient(orange, #7FBF75);
+    }
+
+    .textouno{
+        font: green;
+        background-color: red;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .textodos{
+        @extend .textouno;
+        font: yellow;
+        text-size: 50px;
+    }
+
+    .textotres{
+        @extend .textouno;
+        font: white;
+        text-size: 50px;
+    }
+
+    .textocuatro{
+        @extend .textouno;
+        font: orange;
+        text-size: 50px;  
     }
 
 main{
@@ -171,9 +240,57 @@ margin-top: 22px;
         text-align: center;
 }
 
+
+@mixin colorTituloSecundario($color, $bgColor, $tamanioLetra) {
+
+    color:$color;
+    background-color: $bgColor;
+    font-size: $tamanioLetra;
+    text-align: center;
+    
+}
+
+h2{
+    @include colorTituloSecundario( blue, yellow, 60px );
+}
+
+h3{
+    @include colorTituloSecundario( red, green, 80px );
+}
+
+h4{
+    @include colorTituloSecundario(black, white, 100px )
+}
+
     #radial{
         background-image: radial-gradient(orange, #7FBF75);
     }
+
+    .textouno{
+        font: green;
+        background-color: red;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .textodos{
+        @extend .textouno;
+        font: yellow;
+        text-size: 50px;
+    }
+
+    .textotres{
+        @extend .textouno;
+        font: white;
+        text-size: 50px;
+    }
+
+    .textocuatro{
+        @extend .textouno;
+        font: orange;
+        text-size: 50px;  
+    }
+    
 
 main{
     background-color: #7FBF75;
@@ -277,11 +394,58 @@ main{
         h2{
             text-align: center;
     }
+
+    @mixin colorTituloSecundario($color, $bgColor, $tamanioLetra) {
+
+        color:$color;
+        background-color: $bgColor;
+        font-size: $tamanioLetra;
+        text-align: center;
+        
+    }
+    
+    h2{
+        @include colorTituloSecundario( blue, yellow, 60px );
+    }
+    
+    h3{
+        @include colorTituloSecundario( red, green, 80px );
+    }
+    
+    h4{
+        @include colorTituloSecundario(black, white, 100px )
+    }
     
         #radial{
             background-image: radial-gradient(orange, #7FBF75);
         }
     
+        .textouno{
+            font: green;
+            background-color: red;
+            text-size: 50px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+        .textodos{
+            @extend .textouno;
+            font: yellow;
+            text-size: 50px;
+        }
+    
+        .textotres{
+            @extend .textouno;
+            font: white;
+            text-size: 50px;
+        }
+    
+        .textocuatro{
+            @extend .textouno;
+            font: orange;
+            text-size: 50px;  
+        }
+
     main{
         background-color: #7FBF75;
     }
@@ -385,10 +549,59 @@ main{
             text-align: center;
     }
     
+    @mixin colorTituloSecundario($color, $bgColor, $tamanioLetra) {
+
+        color:$color;
+        background-color: $bgColor;
+        font-size: $tamanioLetra;
+        text-align: center;
+        
+    }
+    
+    h2{
+        @include colorTituloSecundario( blue, yellow, 60px );
+    }
+    
+    h3{
+        @include colorTituloSecundario( red, green, 80px );
+    }
+    
+    h4{
+        @include colorTituloSecundario(black, white, 100px )
+    }
+
+
         #radial{
             background-image: radial-gradient(orange, #7FBF75);
         }
     
+        .textouno{
+            font: green;
+            background-color: red;
+            text-size: 50px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+        .textodos{
+            @extend .textouno;
+            font: yellow;
+            text-size: 50px;
+        }
+    
+        .textotres{
+            @extend .textouno;
+            font: white;
+            text-size: 50px;
+        }
+    
+        .textocuatro{
+            @extend .textouno;
+            font: orange;
+            text-size: 50px;  
+        }
+
+
     main{
         background-color: #7FBF75;
     }
@@ -490,6 +703,27 @@ main{
         h2{
             text-align: center;
     }
+
+    @mixin colorTituloSecundario($color, $bgColor, $tamanioLetra) {
+
+        color:$color;
+        background-color: $bgColor;
+        font-size: $tamanioLetra;
+        text-align: center;
+        
+    }
+    
+    h2{
+        @include colorTituloSecundario( blue, yellow, 60px );
+    }
+    
+    h3{
+        @include colorTituloSecundario( red, green, 80px );
+    }
+    
+    h4{
+        @include colorTituloSecundario(black, white, 100px )
+    }
     
         #radial{
             background-image: radial-gradient(orange, #7FBF75);
@@ -497,6 +731,32 @@ main{
     
     main{
         background-color: #7FBF75;
+    }
+
+    .textouno{
+        font: green;
+        background-color: red;
+        text-size: 50px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .textodos{
+        @extend .textouno;
+        font: yellow;
+        text-size: 50px;
+    }
+
+    .textotres{
+        @extend .textouno;
+        font: white;
+        text-size: 50px;
+    }
+
+    .textocuatro{
+        @extend .textouno;
+        font: orange;
+        text-size: 50px;  
     }
     
     #animacion{
