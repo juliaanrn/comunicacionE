@@ -79,7 +79,15 @@ margin-top: 22px;
     }
 
     main{
-        min-height: 358px;
+        min-height: 300px;
+    }
+
+    p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .nosotrosimg{
+        margin-left: 250px;
     }
     
     h2{
@@ -96,11 +104,11 @@ margin-top: 22px;
 }
 
 h2{
-    @include colorTituloSecundario( blue, yellow, 60px );
+    @include colorTituloSecundario( blue, #81D959, 60px );
 }
 
 h3{
-    @include colorTituloSecundario( red, green, 80px );
+    @include colorTituloSecundario( red, #ace293, 80px );
 }
 
 h4{
@@ -109,31 +117,6 @@ h4{
 
     .radial{
         background-image: radial-gradient(orange, #7FBF75);
-    }
-
-    .textouno{
-        font: green;
-        background-color: red;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .textodos{
-        @extend .textouno;
-        font: yellow;
-        text-size: 50px;
-    }
-
-    .textotres{
-        @extend .textouno;
-        font: white;
-        text-size: 50px;
-    }
-
-    .textocuatro{
-        @extend .textouno;
-        font: orange;
-        text-size: 50px;  
     }
 
 main{
@@ -235,6 +218,14 @@ margin-top: 22px;
     main{
         min-height: 250px;
     }
+
+    p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .nosotrosimg{
+        margin-left: 600px;
+    }
     
     h2{
         text-align: center;
@@ -251,11 +242,11 @@ margin-top: 22px;
 }
 
 h2{
-    @include colorTituloSecundario( blue, yellow, 60px );
+    @include colorTituloSecundario( blue, #81D959, 60px );
 }
 
 h3{
-    @include colorTituloSecundario( red, green, 80px );
+    @include colorTituloSecundario( red, #ace293, 80px );
 }
 
 h4{
@@ -265,32 +256,6 @@ h4{
     #radial{
         background-image: radial-gradient(orange, #7FBF75);
     }
-
-    .textouno{
-        font: green;
-        background-color: red;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .textodos{
-        @extend .textouno;
-        font: yellow;
-        text-size: 50px;
-    }
-
-    .textotres{
-        @extend .textouno;
-        font: white;
-        text-size: 50px;
-    }
-
-    .textocuatro{
-        @extend .textouno;
-        font: orange;
-        text-size: 50px;  
-    }
-    
 
 main{
     background-color: #7FBF75;
@@ -390,6 +355,14 @@ main{
         main{
             min-height: 430px;
         }
+
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .nosotrosimg{
+            margin-left: 600px;
+        }
         
         h2{
             text-align: center;
@@ -405,11 +378,11 @@ main{
     }
     
     h2{
-        @include colorTituloSecundario( blue, yellow, 60px );
+        @include colorTituloSecundario( blue, #81D959, 60px );
     }
     
     h3{
-        @include colorTituloSecundario( red, green, 80px );
+        @include colorTituloSecundario( red, #737a70, 80px );
     }
     
     h4{
@@ -420,31 +393,6 @@ main{
             background-image: radial-gradient(orange, #7FBF75);
         }
     
-        .textouno{
-            font: green;
-            background-color: red;
-            text-size: 50px;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-    
-        .textodos{
-            @extend .textouno;
-            font: yellow;
-            text-size: 50px;
-        }
-    
-        .textotres{
-            @extend .textouno;
-            font: white;
-            text-size: 50px;
-        }
-    
-        .textocuatro{
-            @extend .textouno;
-            font: orange;
-            text-size: 50px;  
-        }
 
     main{
         background-color: #7FBF75;
@@ -544,6 +492,14 @@ main{
         main{
             min-height: 425px;
         }
+
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .nosotrosimg{
+            margin-left: 600px;
+        }
         
         h2{
             text-align: center;
@@ -559,11 +515,11 @@ main{
     }
     
     h2{
-        @include colorTituloSecundario( blue, yellow, 60px );
+        @include colorTituloSecundario( blue, #81D959, 60px );
     }
     
     h3{
-        @include colorTituloSecundario( red, green, 80px );
+        @include colorTituloSecundario( red, #ace293, 80px );
     }
     
     h4{
@@ -575,32 +531,6 @@ main{
             background-image: radial-gradient(orange, #7FBF75);
         }
     
-        .textouno{
-            font: green;
-            background-color: red;
-            text-size: 50px;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-    
-        .textodos{
-            @extend .textouno;
-            font: yellow;
-            text-size: 50px;
-        }
-    
-        .textotres{
-            @extend .textouno;
-            font: white;
-            text-size: 50px;
-        }
-    
-        .textocuatro{
-            @extend .textouno;
-            font: orange;
-            text-size: 50px;  
-        }
-
 
     main{
         background-color: #7FBF75;
@@ -699,6 +629,14 @@ main{
         main{
             min-height: 425px;
         }
+
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .nosotrosimg{
+            margin-left: 600px;
+        }
         
         h2{
             text-align: center;
@@ -714,11 +652,11 @@ main{
     }
     
     h2{
-        @include colorTituloSecundario( blue, yellow, 60px );
+        @include colorTituloSecundario( blue, #81D959, 60px );
     }
     
     h3{
-        @include colorTituloSecundario( red, green, 80px );
+        @include colorTituloSecundario( red, #ace293, 80px );
     }
     
     h4{
@@ -733,31 +671,6 @@ main{
         background-color: #7FBF75;
     }
 
-    .textouno{
-        font: green;
-        background-color: red;
-        text-size: 50px;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .textodos{
-        @extend .textouno;
-        font: yellow;
-        text-size: 50px;
-    }
-
-    .textotres{
-        @extend .textouno;
-        font: white;
-        text-size: 50px;
-    }
-
-    .textocuatro{
-        @extend .textouno;
-        font: orange;
-        text-size: 50px;  
-    }
     
     #animacion{
         text-align: center;
