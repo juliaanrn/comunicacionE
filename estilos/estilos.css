@@ -17,8 +17,7 @@
     height: 100%;
     width: auto; }
   footer {
-    background-color: #81D959;
-    height: 113px; }
+    background-color: #81D959; }
   nav {
     background-color: #012840;
     height: 60px;
@@ -40,12 +39,13 @@
   .footer-social {
     display: inline; }
   .footer-social ul li {
-    display: inline; }
+    display: inline;
+    width: 100%;
+    height: 100%; }
   .social img {
-    width: 50px;
-    height: auto;
-    margin: 30px;
-    margin-left: 70px; }
+    width: 100%;
+    height: 100%;
+    margin-left: 50px; }
   main {
     min-height: 300px; }
   p {
@@ -116,19 +116,13 @@
     height: 100%;
     width: auto; }
   footer {
-    background-color: #81D959;
-    height: 113px; }
+    background-color: #81D959; }
   footer h4 {
     display: inline; }
   .footer-social {
     display: inline; }
   .footer-social ul li {
     display: inline; }
-  .social img {
-    width: 50px;
-    height: auto;
-    margin: 30px;
-    margin-left: 150px; }
   main {
     min-height: 250px; }
   p {
@@ -283,7 +277,7 @@
     width: auto; }
   footer {
     background-color: #81D959;
-    height: 113px; }
+    height: 50px; }
   footer h4 {
     display: inline; }
   .footer-social {
